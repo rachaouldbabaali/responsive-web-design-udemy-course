@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <table>
+            <tr>
+                <td>user name</td>
+                <td> <input type="text" name ="user_name" required></td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td> <input type="email" name ="user_email" required></td>
+            </tr>
+            <tr>
+                <td>user phone</td>
+                <td> <input type="tel" name ="user_tel" required></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td> <input type="password" name ="password" required></td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td> <input type="date" name ="r_date" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td> 
+                    <input type="radio" name ="user_gender" value="male" > Male <br>
+                    <input type="radio" name ="user_gender" value="female" > Female
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td> 
+                    <select name="r_country" required>
+                        <option value="India"> India</option>
+                        <option value="Algeria"> Algeria</option>
+                        <option value="Tunisia"> Tunisia</option>
+                        <option value="Usa"> Usa </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="submit" name ="log_in" value ="Register"</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
