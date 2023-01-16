@@ -80,7 +80,7 @@ body{
 }
 /* content */
 .content-holder{
-    background-color: rgb(100, 134, 236);
+    background-color:rgb(13, 155, 155);
 }
 .content {
     width: 700px;
@@ -103,6 +103,7 @@ body{
 }
 .sidebar h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: wheat;
 }
 .sidebar>ul {
     list-style-type: none;
@@ -111,13 +112,50 @@ body{
     text-decoration: none;
     display: block;
     font-family: serif;
-    color: beige;
+    color: wheat;
     margin-bottom: 7.5px;
 }
 .main-footer{
     color: aliceblue;
-    background-color: rgb(224, 78, 78);
+    background-color: teal;
     width: 950px;
     height: auto;
     padding: 25px;
+}
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    
+}
+.footer-box>ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.footer-box>ul>li>a{
+    display: block;
+    font-size: small;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    color: beige;
+    text-decoration: none;
+}
+.footer-box address a{
+    color:black;
+    font-family: serif;
+}
+address p{
+    font-size: small;
+}
+.copy {
+    font-family: sans-serif;
+    padding: 25px;
+    background-color: rgb(2, 75, 75);
+    color: wheat;
+    text-align: center;
+}
+.copy p{
+    margin: 0px;
 }
