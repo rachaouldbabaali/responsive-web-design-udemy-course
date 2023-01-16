@@ -71,10 +71,53 @@ body{
 }
 .banner{
     width: 1000px;
-    height: 416.66px;
+    height: 417px;
     overflow: hidden;
 }
 .banner img{
     width: 100%;
     height: auto;
+}
+/* content */
+.content-holder{
+    background-color: rgb(100, 134, 236);
+}
+.content {
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: wheat;
+    float: left;
+}
+.content h1{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content p{
+    font-size: small;
+    font-family:sans-serif;
+}
+.sidebar{
+    float: left;
+    padding: 30px;
+}
+.sidebar h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sidebar>ul {
+    list-style-type: none;
+}
+.sidebar>ul>li>a {
+    text-decoration: none;
+    display: block;
+    font-family: serif;
+    color: beige;
+    margin-bottom: 7.5px;
+}
+.main-footer{
+    color: aliceblue;
+    background-color: rgb(224, 78, 78);
+    width: 950px;
+    height: auto;
+    padding: 25px;
 }
