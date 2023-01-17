@@ -1,161 +1,167 @@
-body{
-    margin : 0 auto;
-    background-color: gainsboro;
+body {
+  margin: 0 auto;
+  background-color: gainsboro;
 }
-.container{
-    width: 1000px;
-    height: auto;
-    background-color: antiquewhite;
-    margin: auto;
+.container {
+  width: 1000px;
+  height: auto;
+  background-color: antiquewhite;
+  margin: auto;
 }
-.logo{
-    float: left;
-    padding: 15px;
+.logo {
+  float: left;
+  padding: 15px;
 }
-.search{
-    float: right;
-    padding: 35px;
+.search {
+  float: right;
+  padding: 35px;
 }
-.clearfix{
-    clear: both;
+.clearfix {
+  clear: both;
 }
-#log{
-    width: 90px;
-    height: auto;
+#log {
+  width: 90px;
+  height: auto;
 }
-.mainMenu{
-    background-color: teal;
-
+.mainMenu {
+  background-color: teal;
 }
-.mainMenu>ul{
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
+.mainMenu > ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
 }
-.mainMenu>ul>li{
-    display: inline-block;
+.mainMenu > ul > li {
+  display: inline-block;
 }
-.mainMenu>ul>li>a{
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 15px;
-    font-family: sans-serif;
-    font-size: small;
+.mainMenu > ul > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: small;
 }
-.mainMenu>ul>li>a:hover{
-    background-color : orange;
+.mainMenu > ul > li > a:hover {
+  background-color: orange;
 }
-.drop{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    display: none;
+.drop {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  display: none;
 }
-.drop >li>a{
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 15px;
-    font-family: sans-serif;
-    font-size: small;
-    background-color: turquoise;
-    z-index: 999;
+.drop > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: small;
+  background-color: turquoise;
+  z-index: 999;
 }
-.drop>li>a:hover{
-    background-color: orange;
+.drop > li > a:hover {
+  background-color: orange;
 }
-.mainMenu>ul>li:hover .drop{
-    display: block;
+.mainMenu > ul > li:hover .drop {
+  display: block;
 }
-.banner{
-    width: 1000px;
-    height: 417px;
-    overflow: hidden;
+.banner {
+  width: 1000px;
+  height: 417px;
+  overflow: hidden;
 }
-.banner img{
-    width: 100%;
-    height: auto;
+.banner img {
+  width: 100%;
+  height: auto;
 }
 /* content */
-.content-holder{
-    background-color:rgb(13, 155, 155);
+.content-holder {
+  background-color: rgb(13, 155, 155);
 }
 .content {
-    width: 700px;
-    height: auto;
-    padding: 25px;
-    background-color: wheat;
-    float: left;
+  width: 700px;
+  height: auto;
+  padding: 25px;
+  background-color: wheat;
+  float: left;
 }
-.content h1{
-    font-size: 2em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.content h1 {
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.content p{
-    font-size: small;
-    font-family:sans-serif;
+.content p {
+  font-size: small;
+  font-family: sans-serif;
 }
-.sidebar{
-    float: left;
-    padding: 30px;
+.sidebar {
+  float: left;
+  padding: 30px;
 }
-.sidebar h3{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: wheat;
+.sidebar h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: wheat;
 }
-.sidebar>ul {
-    list-style-type: none;
+.sidebar > ul {
+  list-style-type: none;
 }
-.sidebar>ul>li>a {
-    text-decoration: none;
-    display: block;
-    font-family: serif;
-    color: wheat;
-    margin-bottom: 7.5px;
+.sidebar > ul > li > a {
+  text-decoration: none;
+  display: block;
+  font-family: serif;
+  color: wheat;
+  margin-bottom: 7.5px;
 }
-.main-footer{
-    color: aliceblue;
-    background-color: teal;
-    width: 950px;
-    height: auto;
-    padding: 25px;
+.main-footer {
+  color: aliceblue;
+  background-color: teal;
+  width: 950px;
+  height: auto;
+  padding: 25px;
 }
-.footer-box{
-    width: 237.5px;
-    height: auto;
-    float: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
-    
+.footer-box {
+  width: 237.5px;
+  height: auto;
+  float: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.footer-box>ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
+.footer-box > ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
-.footer-box>ul>li>a{
-    display: block;
-    font-size: small;
-    font-family: sans-serif;
-    margin-bottom: 5px;
-    color: beige;
-    text-decoration: none;
+.footer-box > ul > li > a {
+  display: block;
+  font-size: small;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  color: beige;
+  text-decoration: none;
 }
-.footer-box address a{
-    color:black;
-    font-family: serif;
+.footer-box address a {
+  color: black;
+  font-family: serif;
 }
-address p{
-    font-size: small;
+address p {
+  font-size: small;
 }
 .copy {
-    font-family: sans-serif;
-    padding: 25px;
-    background-color: rgb(2, 75, 75);
-    color: wheat;
-    text-align: center;
+  font-family: sans-serif;
+  padding: 25px;
+  background-color: rgb(2, 75, 75);
+  color: wheat;
+  text-align: center;
 }
-.copy p{
-    margin: 0px;
+.copy p {
+  margin: 0px;
+}
+
+img {
+  width: 250px;
+  height: 300px;
 }
