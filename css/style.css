@@ -51,6 +51,7 @@ body {
   padding: 0px;
   position: absolute;
   display: none;
+  z-index: 999;
 }
 .drop > li > a {
   color: white;
@@ -60,7 +61,7 @@ body {
   font-family: sans-serif;
   font-size: small;
   background-color: turquoise;
-  z-index: 999;
+  
 }
 .drop > li > a:hover {
   background-color: orange;
@@ -70,16 +71,17 @@ body {
 }
 .banner {
   width: 1000px;
-  height: auto;
+  height: 417px;
   overflow: hidden;
 }
 .banner img {
-  width: 99%;
-  height: auto;
+  width: 100%;
+  height: 417px;
 }
 /* content */
 .content-holder {
   background-color: rgb(13, 155, 155);
+  
 }
 .content {
   width: 700px;
@@ -87,6 +89,7 @@ body {
   padding: 25px;
   background-color: wheat;
   float: left;
+  min-height: 200px;
 }
 .content h1 {
   font-size: 2em;
@@ -170,4 +173,52 @@ img {
 .content img{
   width: 100%;
   height: auto;
+}
+
+/* contact page */
+.container iframe{
+  width: 100%;
+  height: 417px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* products */
+.products{
+  width: 210px;
+  height: auto;
+  float: left;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+.products img{
+  width: 208px;
+  height: 209px;
+}
+.products a{
+  display: block;
+  font-size: medium;
+  font: 1em sans-serif;
+  color: brown;
+  font-weight: bold;
+  text-align: center;
+  background-color: aquamarine;
+  padding: 8px;
+  text-decoration: none;
+}
+.products a:hover{
+  background-color:rgb(2, 75, 75);
+  color: wheat;
+}
+.products p{
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+.products del{
+  color: red;
+}
+.products h3{
+  text-align: center;
 }
