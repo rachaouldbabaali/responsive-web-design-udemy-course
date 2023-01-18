@@ -70,11 +70,11 @@ body {
 }
 .banner {
   width: 1000px;
-  height: 417px;
+  height: auto;
   overflow: hidden;
 }
 .banner img {
-  width: 100%;
+  width: 99%;
   height: auto;
 }
 /* content */
@@ -164,4 +164,10 @@ address p {
 img {
   width: 250px;
   height: 300px;
+}
+
+/*about us page */
+.content img{
+  width: 100%;
+  height: auto;
 }
